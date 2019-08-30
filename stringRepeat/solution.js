@@ -11,5 +11,3 @@ function repeatStr(n, string) {
   }
   return result;
 }
-
-console.log(repeatStr(6, "I"));
