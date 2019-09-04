@@ -1,20 +1,12 @@
-// Given an array of objects (people), return the names of those who are 18 or older.
+// Given an array of objects (animals), return the names of those who are older than 5.
 
-const people = [
-  { name: "", age: 16 },
-  { name: "", age: 19 },
-  { name: "", age: 20 },
-  { name: "", age: 18 }
+const animals = [
+  { name: "Natasha", age: 10 },
+  { name: "Raina", age: 1 },
+  { name: "Rocky", age: 13 },
+  { name: "Bullwinkle", age: 13 },
+  { name: "Mya", age: 4 },
+  { name: "Celeste", age: 1 }
 ];
 
-const peopleAbove18 = collection => {
-  let names = [];
-  collection.filter(person => {
-    if (person.age >= 18) {
-      names.push(person.name);
-    }
-  });
-  return names;
-};
-
-console.log(peopleAbove18(people));
+const animalsOlderThanFive = collection => {};
