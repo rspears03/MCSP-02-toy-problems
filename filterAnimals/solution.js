@@ -1,4 +1,4 @@
-// Return the names of anyone who is 18 years of age or older using the filter higher order function
+// Given an array of objects, return the names of all animals that are older than 5 using the "filter" array method
 
 const animals = [
   { name: "Natasha", age: 10 },

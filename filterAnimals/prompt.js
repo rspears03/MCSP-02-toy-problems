@@ -1,4 +1,4 @@
-// Given an array of objects (animals), return the names of those who are older than 5.
+// Given an array of objects, return the names of all animals that are older than 5 using the "filter" array method
 
 const animals = [
   { name: "Natasha", age: 10 },
