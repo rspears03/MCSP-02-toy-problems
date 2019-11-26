@@ -98,3 +98,4 @@
 var mergeSort = function(array) {
   // Your code here.
 };
+
