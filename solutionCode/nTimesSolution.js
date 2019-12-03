@@ -1,4 +1,3 @@
-
 // nTimes takes an integer and a function, 
 // and returns a function that will invoke 
 // the original function the first n times 
