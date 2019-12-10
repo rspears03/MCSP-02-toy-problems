@@ -1,6 +1,8 @@
 /*
- * function bind():
- *
+ * function bind(): Implement the native .bind() method of a function!
+ * MDN documentation for Javascript's Function.prototype.bind
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+ * 
  * example 1:
  *
  * var alice = {
