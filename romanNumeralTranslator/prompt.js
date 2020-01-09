@@ -16,6 +16,7 @@
  * all non-empty string inputs to be valid roman numerals.
  */
 
+
 var DIGIT_VALUES = {
   I: 1,
   V: 5,
@@ -27,5 +28,11 @@ var DIGIT_VALUES = {
 };
 
 var translateRomanNumeral = function(romanNumeral) {
-  // TODO: Implement me!
+  if(romanNumeral.length === 1 ){
+      if(DIGIT_VALUES.includes[romanNumeral]){
+           console.log('yep') 
+      }
 };
+
+
+translateRomanNumeral();
