@@ -11,4 +11,21 @@
 // str: "[{]}"                    |   false
 const isBalanced = str => {
     let open = [];
+    
+    const openBal = new Set (['{'], ['['], ['(']);
+
+    const closedBal = {
+    '}' : '{',
+    ']' : '[',
+    ')' : '['
+    }
+
+    for(let a of str){
+        if(openBal(a)){
+            return true
+        }else if(openbal(a) && open.pop() !== closedBal){
+            return false
+        }
+    }
+    return !open.length
 };
