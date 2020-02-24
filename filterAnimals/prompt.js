@@ -9,4 +9,8 @@ const animals = [
   { name: "Celeste", age: 1 }
 ];
 
-const animalsOlderThanFive = collection => {};
+const animalsOlderThanFive = collection => {
+  const results = animals.filter(animal => animal.age > 5)
+
+  return results //?
+};
